@@ -43,7 +43,7 @@ class Bola:
 
 
 def iniciar_jogo() -> None:
-    """Função principal para inicializar e executar o jogo."""
+    """Inicializa e executa o jogo Bola Maluca."""
     pygame.init()  # pylint: disable=no-member
     tela = pygame.display.set_mode((LARGURA_TELA, ALTURA_TELA))
     pygame.display.set_caption("🏀 Bola Maluca!")
