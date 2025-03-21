@@ -2,7 +2,7 @@
 
 import random
 import sys
-import pygame #noqa: F401
+import pygame
 
 # Cores RGB
 BRANCO: tuple[int, int, int] = (255, 255, 255)
