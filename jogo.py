@@ -50,12 +50,9 @@ def iniciar_jogo() -> None:
 
     x_inicial = random.randint(RAIO_BOLA, LARGURA_TELA - RAIO_BOLA)
     y_inicial = random.randint(RAIO_BOLA, ALTURA_TELA - RAIO_BOLA)
-    bola = Bola(
-        x_inicial,
-        y_inicial,
-        random.choice([-4, 4]),
-        random.choice([-4, 4])
-    )
+    vel_x = random.choice([-4, 4])
+    vel_y = random.choice([-4, 4])
+    bola = Bola(x_inicial, y_inicial, vel_x, vel_y)
 
     relogio = pygame.time.Clock()
     rodando = True
