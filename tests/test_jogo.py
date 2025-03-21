@@ -18,7 +18,3 @@ def test_bola_quica_nas_bordas_verticais():
     bola = Bola(x=100, y=30, vel_x=0, vel_y=-5)  # bem no topo
     bola.mover()
     assert bola.vel_y == 5  # deve inverter direção
-
-
-
-
